@@ -10,6 +10,26 @@ function generateCaptcha() {
   return captcha;
 }
 
+const handleSignIn = async () => {
+  const maskedUsername = "user***"; // never real
+  const event = {
+    type: "PHISHING_SIMULATION",
+    username: maskedUsername,
+    time: new Date().toISOString(),
+  };
+
+//   await fetch("http://localhost:5000/phishing-log", {
+//     method: "POST",
+//     headers: { "Content-Type": "application/json" },
+//     body: JSON.stringify(event),
+//   });
+
+  alert(
+    "⚠ This was a phishing simulation.\nYour credentials could have been stolen."
+  );
+};
+
+
 function FakeLogin() {
   const [captcha, setCaptcha] = useState(generateCaptcha());
   const [captchaInput, setCaptchaInput] = useState("");
@@ -71,7 +91,7 @@ function FakeLogin() {
 
           <div className="actions">
             <a href="#" className="link">Terms of Use</a>
-            <button>Sign In</button>
+            <button onClick={handleSignIn}>Sign In</button>
           </div>
 
           <a href="#" className="home-link">Home</a>
