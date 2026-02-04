@@ -1,11 +1,11 @@
 body {
   margin: 0;
   font-family: 'Courier New', Courier, monospace;
-  background-color: #121212;
+  /* background-color: #121212; */
 }
 
 .main-content {
   margin-left: 260px; 
   padding: 20px;
-  color: white;
+  /* color: white; */
 }

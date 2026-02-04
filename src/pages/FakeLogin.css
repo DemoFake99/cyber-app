@@ -1,0 +1,169 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #f6f8ff;
+}
+
+.page {
+  min-height: 100vh;
+  position: relative;
+}
+
+/* Header */
+.header {
+  background: #ffffff;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-bold {
+  font-weight: 700;
+  font-size: 20px;
+  color: #4a5cff;
+}
+
+.logo-light {
+  font-size: 12px;
+  color: #666;
+}
+
+.social-icons span {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* Login */
+.login-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.login-card {
+  background: #fff;
+  width: 420px;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.login-card h3 {
+  margin-bottom: 20px;
+}
+
+.login-card label {
+  font-size: 14px;
+  color: #444;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0 14px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+}
+
+.password-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.password-row a {
+  font-size: 12px;
+  color: #5a67ff;
+  text-decoration: none;
+}
+
+.captcha-row {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+/* Captcha container */
+.captcha-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 160px;
+  background: #f1f3ff;
+  padding: 10px 14px;
+  border-radius: 4px;
+}
+
+/* Bigger captcha text */
+.captcha-text {
+  font-size: 26px;       /* increased size */
+  font-weight: bold;
+  letter-spacing: 3px;
+  color: #000;
+}
+
+/* Refresh button on right, no border */
+.refresh-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  margin-left: 12px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #5a67ff;
+  outline: none;
+}
+
+.refresh-btn:hover {
+  transform: rotate(90deg);
+}
+
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.actions button {
+  background: #5a67ff;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.actions button:hover {
+  background: #4452ff;
+}
+
+.link {
+  font-size: 12px;
+  color: #5a67ff;
+  text-decoration: none;
+}
+
+.home-link {
+  display: block;
+  text-align: right;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #5a67ff;
+  text-decoration: none;
+}
+
+/* Footer */
+.footer {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-size: 12px;
+  color: #888;
+}

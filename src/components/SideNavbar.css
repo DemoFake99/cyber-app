@@ -1,17 +1,17 @@
 .sidebar {
   width: 220px;
   height: 100vh;
-  background-color: #0b0b0b;
-  color: white;
+  background-color: whitesmoke;
+  color: #0b0b0b;
   position: fixed;
   left: 0;
   top: 0;
   padding: 20px;
-  border-right: 2px solid #22c55e;
+  border-right: 2px solid #5a67ff;
 }
 
 .sidebar-logo {
-  color: #22c55e;
+  color: #5a67ff;
   font-size: 22px;
   margin-bottom: 30px;
 }
@@ -22,7 +22,7 @@
 }
 
 .sidebar-links a {
-  color: white;
+  color: #0b0b0b;
   text-decoration: none;
   padding: 12px 10px;
   margin-bottom: 10px;
@@ -30,6 +30,6 @@
 }
 
 .sidebar-links a:hover {
-  background-color: #22c55e;
-  color: black;
+  background-color: #5a67ff;
+  color: white;
 }

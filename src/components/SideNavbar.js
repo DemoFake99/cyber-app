@@ -8,8 +8,8 @@ function SideNavbar() {
 
       <nav className="sidebar-links">
         <Link to="/">Dashboard</Link>
-        <Link to="/simulation">Simulation</Link>
         <Link to="/awareness">Awareness</Link>
+        <Link to="/simulation">Simulation</Link>
       </nav>
     </div>
   );
